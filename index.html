@@ -198,6 +198,11 @@
     .card-metro  .app-icon svg { stroke: #c878d8; }
     .card-string .app-icon svg { stroke: #78c88a; }
 
+    .card-keysig::before { background: radial-gradient(ellipse at top, rgba(110,158,200,0.12), transparent 70%); }
+    .card-keysig:hover { border-color: rgba(110,158,200,0.35); }
+    .card-keysig .app-icon { background: rgba(110,158,200,0.15); }
+    .card-keysig .app-icon svg { stroke: #6e9ec8; }
+
     .app-name {
       font-family: 'Playfair Display', serif;
       font-size: 0.95rem;
@@ -322,6 +327,22 @@
       </div>
       <div class="app-name">String Fingerings</div>
       <div class="app-desc">Chord &amp; scale fingering charts</div>
+      <div class="arrow">→</div>
+    </a>
+
+    <!-- Key Signature Ladder -->
+    <a class="app-card card-keysig" href="https://keysig.marinomusic.net" target="_blank" rel="noopener">
+      <div class="app-icon">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9"/>
+          <line x1="12" y1="3" x2="12" y2="21"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="5.5" y1="5.5" x2="18.5" y2="18.5"/>
+          <line x1="18.5" y1="5.5" x2="5.5" y2="18.5"/>
+        </svg>
+      </div>
+      <div class="app-name">Key Signature Ladder</div>
+      <div class="app-desc">Adaptive circle-of-fifths drills</div>
       <div class="arrow">→</div>
     </a>
 
