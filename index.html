@@ -203,6 +203,11 @@
     .card-keysig .app-icon { background: rgba(110,158,200,0.15); }
     .card-keysig .app-icon svg { stroke: #6e9ec8; }
 
+    .card-interval::before { background: radial-gradient(ellipse at top, rgba(201,112,78,0.12), transparent 70%); }
+    .card-interval:hover { border-color: rgba(201,112,78,0.35); }
+    .card-interval .app-icon { background: rgba(201,112,78,0.15); }
+    .card-interval .app-icon svg { stroke: #c9704e; }
+
     .app-name {
       font-family: 'Playfair Display', serif;
       font-size: 0.95rem;
@@ -343,6 +348,22 @@
       </div>
       <div class="app-name">Key Signature Ladder</div>
       <div class="app-desc">Adaptive circle-of-fifths drills</div>
+      <div class="arrow">→</div>
+    </a>
+
+    <!-- Interval Ladder -->
+    <a class="app-card card-interval" href="https://intervals.marinomusic.net" target="_blank" rel="noopener">
+      <div class="app-icon">
+        <svg viewBox="0 0 24 24">
+          <line x1="2" y1="7" x2="22" y2="7"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <line x1="2" y1="17" x2="22" y2="17"/>
+          <circle cx="8" cy="17" r="2.2"/>
+          <circle cx="16" cy="7" r="2.2"/>
+        </svg>
+      </div>
+      <div class="app-name">Interval Ladder</div>
+      <div class="app-desc">Adaptive interval-quality drills</div>
       <div class="arrow">→</div>
     </a>
 
