@@ -208,6 +208,16 @@
     .card-interval .app-icon { background: rgba(201,112,78,0.15); }
     .card-interval .app-icon svg { stroke: #c9704e; }
 
+    .card-flash::before { background: radial-gradient(ellipse at top, rgba(224,120,154,0.12), transparent 70%); }
+    .card-flash:hover { border-color: rgba(224,120,154,0.35); }
+    .card-flash .app-icon { background: rgba(224,120,154,0.15); }
+    .card-flash .app-icon svg { stroke: #e0789a; }
+
+    .card-duel::before { background: radial-gradient(ellipse at top, rgba(181,199,90,0.12), transparent 70%); }
+    .card-duel:hover { border-color: rgba(181,199,90,0.35); }
+    .card-duel .app-icon { background: rgba(181,199,90,0.15); }
+    .card-duel .app-icon svg { stroke: #b5c75a; }
+
     .app-name {
       font-family: 'Playfair Display', serif;
       font-size: 0.95rem;
@@ -364,6 +374,39 @@
       </div>
       <div class="app-name">Interval Ladder</div>
       <div class="app-desc">Adaptive interval-quality drills</div>
+      <div class="arrow">→</div>
+    </a>
+
+    <!-- Around the World Flash Cards -->
+    <a class="app-card card-flash" href="https://flashcards.marinomusic.net" target="_blank" rel="noopener">
+      <div class="app-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M7 9V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-2"/>
+          <rect x="3" y="9" width="14" height="12" rx="2"/>
+          <line x1="7" y1="15" x2="13" y2="15"/>
+        </svg>
+      </div>
+      <div class="app-name">Around the World</div>
+      <div class="app-desc">Music terms &amp; symbols flash cards</div>
+      <div class="arrow">→</div>
+    </a>
+
+    <!-- Floor Duel -->
+    <a class="app-card card-duel" href="https://floorduel.marinomusic.net" target="_blank" rel="noopener">
+      <div class="app-icon">
+        <svg viewBox="0 0 24 24">
+          <circle cx="6.5" cy="14" r="4.5"/>
+          <polyline points="6.5 11.5 6.5 14 8.3 15.2"/>
+          <circle cx="17.5" cy="14" r="4.5"/>
+          <polyline points="17.5 11.5 17.5 14 15.7 15.2"/>
+          <line x1="6.5" y1="9.5" x2="6.5" y2="6.5"/>
+          <line x1="17.5" y1="9.5" x2="17.5" y2="6.5"/>
+          <line x1="4.5" y1="4.5" x2="8.5" y2="4.5"/>
+          <line x1="15.5" y1="4.5" x2="19.5" y2="4.5"/>
+        </svg>
+      </div>
+      <div class="app-name">Floor Duel</div>
+      <div class="app-desc">Head-to-head category game</div>
       <div class="arrow">→</div>
     </a>
 
